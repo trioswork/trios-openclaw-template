@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-agent-template",
+  "version": "1.0.0",
+  "description": "Generic OpenClaw operations agent template",
+  "private": true,
+  "scripts": {
+    "sync-memory": "python3 scripts/memory-sync.py --agent-id main",
+    "backup": "bash scripts/backup-to-github.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trioswork/trios-openclaw-template.git"
+  },
+  "license": "MIT"
+}
